@@ -15,7 +15,18 @@ ODU Digital Comms, 2015<br/>
 [PDF](https://digitalcommons.odu.edu/biomedengineering_etds/6/)
 
 
-### Conference Publications:
+### Peer-Reviewed Publications:
+**Negative Obstacle Traversal of Physical Ground Robots via Imitation Learning Based Control**<br/>
+Brian Cesar-Tondreau, Garrett Warnell, Kevin Kochersberger and Nicholas Waytowich<br/>
+Robotics and Autonomous Systems, 2023<br/>
 
-### Workshop Publications:
 
+**Learning to guide multiple heterogeneous actors from a single human demonstration via automatic curriculum learning in StarCraft II**<br/>
+Nicholas Waytowich, James Hare, Vinicius Goecks, Mark Mittrick, John Richardson, Anjon Basak, and Derrik Asher<br/>
+SPIE: Artificial Intelligence and Machine Learning for Multi-Domain Operations Applications IV, 2022<br/>
+[PDF](https://arxiv.org/pdf/2205.05784.pdf)
+
+**A Flexible Software-Hardware Framework for Brain EEG Multiple Artifact Identification**<br/>
+Mohit Khatwani, Hasib-Al Rashid, Hirenkumar Paneliyua, Mark Horton, Houman Homayhoun, Nicholas Waytowich, David Hairson, and Tinoosh Mohsenin<br/>
+Handbook of Biochips, 2022<br/>
+[PDF](https://eehpc.csee.umbc.edu/publications/pdf/2020/A_Flexible_Software_Hardware_Framework_for_Brain_EEG_Multiple_Artifact_Identification.pdf)
