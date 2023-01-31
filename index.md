@@ -41,12 +41,27 @@ Vinicius G Goecks, Nicholas Waytowich, Derrik Asher Song Park, Mark Mittrick, Jo
 The Journal of Defense Modeling and Simulation, 2022<br/>
 [PDF](https://arxiv.org/pdf/2110.11305.pdf)
 
-**E2hrl: An energy-efficient hardware accelerator for hierarchical deep reinforcement learning**
+**E2hrl: An energy-efficient hardware accelerator for hierarchical deep reinforcement learning**<br/>
 Aidin Shiri, Uttej Kallakuri, Hasib-Al Rashid, Bharat Prakash,  Nicholas Waytowich, Tim Oates and Tinoosh Mohsenin<br/>
 ACM Transactions on Design Automation of Electronic Systems (TODAES), 2022<br/>
 [PDF](https://dl.acm.org/doi/10.1145/3498327)
 
-**Retrospective on the 2021 BASALT Competition on Learning from Human Feedback**
+**Retrospective on the 2021 BASALT Competition on Learning from Human Feedback**<br/>
 Rohin Shah, Steven Wang, Cody Wild, Stephanie Milani, Anssi Kanervisto, Vinicius Goecks,  Nicholas Waytowich, David Watkins-Valls, Bharat Prakash, Edmund Mills and others <br/>
 Proceedings of Machine Learning Research (PLMR), NeurIPS 2021 Competitions and Demonstrations Track, 2022<br/>
 [PDF](https://arxiv.org/pdf/2204.07123.pdf)
+
+**Utility of doctrine with multi-agent RL for military engagements**<br/>
+Anjon Basak, Erin Zaroukian, Kevin Corder, Rolando Fernandz, Christopher Hsu, Piyush Sharma, Nicholas Waytowich and Derrik Asher <br/>
+SPIE: Artificial Intelligence and Machine Learning for Multi-Domain Operations Applications IV, 2022 <br/>
+[PDF](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12113/0000/Utility-of-doctrine-with-multi-agent-RL-for-military-engagements/10.1117/12.2621242.short?SSO=1)
+
+**Towards fully autonomous negative obstacle traversal via imitation learning based control**<br/>
+Brian Cesar-Tondreau, Garrett Warnell, Kevin Kochersberger, and Nicholas Waytowich <br/>
+MDPI: Robotics, 2022 <br/>
+[PDF](https://www.mdpi.com/2218-6581/11/4/67)
+
+**TagTeam: Towards wearable-assisted, implicit guidance for human-drone teams**<br/>
+Kasthuri Jayarajah, Aryya Gangopadhyay, Nicholas Waytowich <br/>
+Proceedings of the 1st ACM Workshop on Smart Wearable Systems and Applications, 2022 <br/>
+[PDF](https://arxiv.org/pdf/2208.05410.pdf)
