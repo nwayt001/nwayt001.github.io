@@ -5,7 +5,7 @@ I am a Machine Learning Research Scientist with the US Army Research Laboratory 
 
 
 My CV is located [here](NRW_CV_Updated_1_23_2023.pdf). <br/>
-My Google Scholar Page is [here](https://scholar.google.com/citations?user=leelUAgAAAAJ&hl=en&oi=ao)
+My Google Scholar page is [here](https://scholar.google.com/citations?user=leelUAgAAAAJ&hl=en&oi=ao)
 ## Publications
 
 ### PhD Dissertation:
