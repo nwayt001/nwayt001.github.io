@@ -65,3 +65,33 @@ MDPI: Robotics, 2022 <br/>
 Kasthuri Jayarajah, Aryya Gangopadhyay, Nicholas Waytowich <br/>
 Proceedings of the 1st ACM Workshop on Smart Wearable Systems and Applications, 2022 <br/>
 [PDF](https://arxiv.org/pdf/2208.05410.pdf)
+
+**An optimization framework for efficient vision-based autonomous drone navigation**<br/>
+Mozhgan Navardi, Aidin Shiri, Edward Humes, Nicholas Waytowich and Tinoosh Mohsenin<br/>
+IEEE 4th International Conference on Artificial Intelligence Circuits and Systems (AICAS), 2022<br/>
+[PDF](http://eehpc.csee.umbc.edu/publications/pdf/2022/2022_AICAS.pdf)
+
+**Efficient Language-Guided Reinforcement Learning for Resource-Constrained Autonomous Systems**<br/>
+Aidin Shiri, Mozhgan Navardi, Tejaswini Manjunath, Nicholas Waytowich and Tinoosh Mohsenin <br/>
+IEEE Micro, 2022<br/>
+[PDF](https://ieeexplore.ieee.org/document/9901456)
+
+**Towards an interpretable hierarchical agent framework using semantic goals**<br/>
+Bharat Prakash, Nicholas Waytowich, Tim Oates, and Tinoosh Mohsenin<br/>
+NeurIPS Workshop on Language and Reinforcement Learning (LaReL), 2022<br/>
+[PDF](https://arxiv.org/pdf/2210.08412.pdf)
+
+**Combining learning from human feedback and knowledge engineering to solve hierarchical tasks in minecraft**<br/>
+Vinicius Goecks, Nicholas Waytowich,  David Watkins and Bharat Prakash<br/>
+AAAI MAKE, 2021<br/>
+[PDF](https://arxiv.org/pdf/2112.03482.pdf)
+
+**Human-autonomy teaming for the tactical edge: the importance of humans in artificial intelligence research and development**<br/>
+Kristin Schaefer, Brandon Perelman, Joe Rexwinkle, Jonroy Canady, Catherine Neubauer, Nicholas Waytowich, and others<br/>
+Systems Engineering and Artificial Intelligence, 2021<br/>
+[PDF](https://link.springer.com/chapter/10.1007/978-3-030-77283-3_7)
+
+**An energy-efficient hardware accelerator for hierarchical deep reinforcement learning**<br/>
+Aidin Shiri, Bharat Prakash, Arnab Mazumder, Nicholas Waytowich, Tim Oates and Tinoosh Mohsenin<br/>
+IEEE 3rd International Conference on Artificial Intelligence Circuits and Systems (AICAS), 2021<br/>
+[PDF](https://ieeexplore.ieee.org/document/9458548)
