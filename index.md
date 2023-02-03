@@ -95,3 +95,17 @@ Systems Engineering and Artificial Intelligence, 2021<br/>
 Aidin Shiri, Bharat Prakash, Arnab Mazumder, Nicholas Waytowich, Tim Oates and Tinoosh Mohsenin<br/>
 IEEE 3rd International Conference on Artificial Intelligence Circuits and Systems (AICAS), 2021<br/>
 [PDF](https://ieeexplore.ieee.org/document/9458548)
+
+**A Hardware Accelerator for Language-Guided Reinforcement Learning**
+Aidin Shiri, Arnab Mazumder, Bharat Prakash, Houman Homayoun, Nicholas Waytowich and Tinoosh Mohsenin<br/>
+IEEE Design & Test, 2021<br/>
+[PDF](https://ieeexplore.ieee.org/document/9367213)
+
+**A flexible multichannel eeg artifact identification processor using depthwise-separable convolutional neural networks**
+Mohit Khatwani, Hasib-Al Rashid, Hirenkumar Paneliya, Mark Horton, Nicholas Waytowich, David Hairston and Tinoosh Mohsenin<br/>
+ACM Journal on Emerging Technologies in Computing Systems (JETC), 2021<br/>
+[PDF](https://dl.acm.org/doi/abs/10.1145/3427471)
+
+**An Energy Efficient EdgeAI Autoencoder Accelerator for Reinforcement Learning**
+Nitheesh Manjuath, Aidin Shiri, Morteza Hosseini, Bharat Prakash, Nicholas Waytowich and Tinoosh Mohsenin<br/>
+IEEE Open Journal of Circuits and Systems, 2021<br/>
