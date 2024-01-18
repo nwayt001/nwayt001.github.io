@@ -15,9 +15,9 @@ Having had the honor to present my findings at prominent conferences like AAAI, 
 
 
 
-My CV is located [here](NRW_CV_Updated_8_31_2023.pdf). <br/>
+My CV is located [here](NRW_CV_Updated_1_17_2024.pdf). <br/>
 My Google Scholar page is [here](https://scholar.google.com/citations?user=leelUAgAAAAJ&hl=en&oi=ao)
-## Recent Publications
+## Selected Publications
 
 ### PhD Dissertation:
 **Development of a Practical Visual Evoked Potential Based Brain-Computer Interface**<br/>
