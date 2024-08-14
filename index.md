@@ -8,9 +8,9 @@ I am Dr. Nicholas Waytowich, a Machine Learning Research Scientist with the US A
 
 Before my stint with the Army Research Laboratory, I had the privilege of being a postdoctoral fellow under the esteemed [Paul Sajda](https://www.bme.columbia.edu/paul-sajda) at Columbia University in the Laboratory for Intelligent Imaging and Neural Computing. During this period, I delved deep into creating novel brain-computer interfaces. This pursuit was a continuation of my Ph.D. journey in Biomedical Engineering from Old Dominion University, where I worked closely with [Dean Krusienski](https://egr.vcu.edu/directory/dean.krusienski/) on practical brain-computer interface applications.
 
-In addition to my research roles, I've been sharing my knowledge as an Adjunct Professor at both the University of Maryland Baltimore County (UMBC) and Anne Arundel Community College (AACC), where I teach Introduction to Machine Learning as well as other engineering and computer science courses. My entrepreneurial venture as the CEO and Co-Founder of AIMS-Technologies, LLC between 2019 and 2020 allowed me to pioneer research strategies to detect and counter non-cooperative, small unmanned aerial systems.
+In addition to my research roles, I've been sharing my knowledge as an Adjunct Professor at both the University of Maryland Baltimore County (UMBC) and Anne Arundel Community College (AACC), where I teach Introduction to Machine Learning as well as other engineering and computer science courses. 
 
-Having had the honor to present my findings at prominent conferences like AAAI, ICML, NeurIPS and AAMAS, I remain committed to pushing the boundaries of what's possible in my field.
+Having had the honor to present my findings at prominent AI/ML conferences like AAAI, ICML, NeurIPS and AAMAS, I remain committed to pushing the boundaries of what's possible in my field.
 
 
 
