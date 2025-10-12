@@ -1,0 +1,339 @@
+/* Custom CSS for Nicholas Waytowich's Bio Site */
+
+/* Import modern font stack */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --primary-color: #1542a4;
+  --primary-dark: #0f256e;
+  --primary-light: #286ad3;
+  --text-primary: #1f2937;
+  --text-secondary: #6b7280;
+  --bg-card: #ffffff;
+  --bg-hover: #f9fafb;
+  --border-color: #e5e7eb;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  --transition: all 0.3s ease;
+}
+
+/* Base typography improvements */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.7;
+  color: var(--text-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--text-primary);
+  border-bottom: 3px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+  margin-top: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: var(--primary-dark);
+}
+
+/* Navigation Menu */
+.nav-menu {
+  display: flex;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.nav-menu li {
+  display: inline-block;
+}
+
+.nav-menu a {
+  display: block;
+  padding: 0.75rem 1.25rem;
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-weight: 500;
+  border-bottom: 3px solid transparent;
+  transition: var(--transition);
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+  color: var(--primary-color);
+  border-bottom-color: var(--primary-color);
+  background-color: var(--bg-hover);
+}
+
+/* About section improvements */
+.about-section {
+  background: var(--bg-card);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: var(--shadow-md);
+  border-left: 4px solid var(--primary-color);
+}
+
+/* Publication cards */
+.publication {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+
+.publication:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+  border-color: var(--primary-light);
+}
+
+.publication strong {
+  color: var(--primary-dark);
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.publication a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.publication a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+/* Projects/Portfolio Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.project-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+  border-color: var(--primary-color);
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: var(--primary-dark);
+}
+
+.project-card p {
+  color: var(--text-secondary);
+  flex-grow: 1;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.project-tag {
+  background: var(--bg-hover);
+  color: var(--primary-dark);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid var(--border-color);
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.project-links a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 6px;
+  transition: var(--transition);
+}
+
+.project-links a:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+/* Social icons enhancement */
+header a img {
+  transition: var(--transition);
+  border-radius: 8px;
+  opacity: 0.8;
+}
+
+header a img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  box-shadow: var(--shadow-md);
+}
+
+/* Profile image enhancement */
+header img[alt="Logo"] {
+  border-radius: 50%;
+  border: 4px solid var(--primary-color);
+  box-shadow: var(--shadow-lg);
+  transition: var(--transition);
+}
+
+header img[alt="Logo"]:hover {
+  transform: scale(1.05);
+}
+
+/* Links styling */
+a {
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--primary-dark);
+}
+
+/* Code blocks (if any) */
+code {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  background: var(--bg-hover);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+  color: var(--primary-dark);
+}
+
+/* Improved spacing */
+section {
+  padding: 1rem 0;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .nav-menu a {
+    border-left: 3px solid transparent;
+    border-bottom: none;
+  }
+
+  .nav-menu a:hover,
+  .nav-menu a.active {
+    border-left-color: var(--primary-color);
+    border-bottom-color: transparent;
+  }
+}
+
+/* Auto-update badge (for publications section) */
+.auto-updated {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--primary-light);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.auto-updated::before {
+  content: "🔄";
+}
+
+/* Last updated timestamp */
+.last-updated {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Loading animation for auto-update */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.updating {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
