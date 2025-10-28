@@ -41,7 +41,23 @@ def fetch_publications(scholar_id):
                 # Extract relevant fields
                 title = pub_filled.get('bib', {}).get('title', 'Untitled')
                 authors = pub_filled.get('bib', {}).get('author', 'Unknown authors')
-                venue = pub_filled.get('bib', {}).get('venue', '')
+
+                # Try to get venue from multiple possible fields
+                venue = (pub_filled.get('bib', {}).get('journal') or
+                        pub_filled.get('bib', {}).get('conference') or
+                        pub_filled.get('bib', {}).get('venue') or
+                        pub_filled.get('bib', {}).get('booktitle') or '')
+
+                # If venue is still empty, try to extract from citation
+                if not venue:
+                    citation = pub_filled.get('bib', {}).get('citation', '')
+                    if citation:
+                        # Citation format is usually: "Journal/Conference, Volume, Pages, Year"
+                        # Extract the first part before the comma as venue
+                        parts = citation.split(',')
+                        if parts:
+                            venue = parts[0].strip()
+
                 year = pub_filled.get('bib', {}).get('pub_year', '')
 
                 # Ensure year is a string for consistent sorting
@@ -113,13 +129,13 @@ def format_publication_latex(pub):
     title = pub.get('title', '')
     venue = pub.get('venue', '')
 
-    # Escape LaTeX special characters
+    # Escape LaTeX special characters in title and venue
     title = escape_latex_chars(title)
     venue = escape_latex_chars(venue)
 
-    # Bold your name in the author list (before escaping, as we add LaTeX commands)
-    authors = bold_name_in_authors(authors)
+    # For authors: escape first, then bold (so \textbf{} doesn't get escaped)
     authors = escape_latex_chars(authors)
+    authors = bold_name_in_authors(authors)
 
     # Build the LaTeX string
     latex = f"\\cvitem{{{year}}}{{{authors}. \\textit{{{title}}}"
@@ -140,10 +156,11 @@ def format_publication_markdown(pub):
     md = f"**{pub['title']}**<br/>\n"
     md += f"{pub['authors']}<br/>\n"
 
+    # Format venue and year more prominently
     if pub['venue'] and pub['year']:
-        md += f"{pub['venue']}, {pub['year']}<br/>\n"
+        md += f"*{pub['venue']}*, {pub['year']}<br/>\n"
     elif pub['venue']:
-        md += f"{pub['venue']}<br/>\n"
+        md += f"*{pub['venue']}*<br/>\n"
     elif pub['year']:
         md += f"{pub['year']}<br/>\n"
 
