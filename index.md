@@ -16,9 +16,14 @@ I am Dr. Nicholas Waytowich, a Machine Learning Research Scientist with the US A
 
 My contributions to reinforcement learning include foundational work on <strong>Deep TAMER</strong>, which extended interactive agent shaping to high-dimensional state spaces using deep learning, and the <strong>Cycle-of-Learning</strong> framework, which integrates multiple human interaction modalities (demonstration, intervention, and evaluation) into a unified RL training paradigm. I have also developed novel approaches for <strong>narration-guided reinforcement learning</strong> in complex environments like StarCraft II, <strong>rating-based reinforcement learning</strong> (AAAI 2024), and the <strong>GUIDE</strong> framework (NeurIPS 2024) for real-time human-shaped agents. More recently, I have applied human-guided machine learning principles to Large Language Models, developing COA-GPT for Command and Control planning.
 
-In addition to my research roles, I've been sharing my knowledge as an Adjunct Professor at both the University of Maryland Baltimore County (UMBC) and Anne Arundel Community College (AACC), where I teach Introduction to Machine Learning as well as other engineering and computer science courses.
-
 Having had the honor to present my findings at prominent AI/ML conferences like AAAI, ICML, NeurIPS and AAMAS, I remain committed to advancing human-AI collaboration through reinforcement learning.
+
+<!--- This is a comment.
+In addition to my research roles, I've been sharing my knowledge as an Adjunct Professor at both the University of Maryland Baltimore County (UMBC) and Anne Arundel Community College (AACC), where I teach Introduction to Machine Learning as well as other engineering and computer science courses.
+ --->
+
+I am also a Co-Founder of <strong><a href="https://nebulawriter.com">Nebula AI</a></strong>, where we are building an AI-native desktop writing studio for researchers, students, and professionals.
+
 
 </div>
 
