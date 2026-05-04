@@ -12,7 +12,7 @@
 
 <div class="about-section">
 
-I am Dr. Nicholas Waytowich, a Member of Technical Staff at <strong><a href="https://micro1.ai">micro1</a></strong> on the Research Engineering team within their AI division, where I focus on data pipeline tooling, reinforcement learning environments, and model inference infrastructure for frontier AI development, including forward-deployed work supporting U.S. government initiatives.
+I am Dr. Nicholas Waytowich, a Research Engineer (MTS) at <strong><a href="https://micro1.ai">micro1</a></strong> within their AI division, where I focus on data pipeline tooling, reinforcement learning environments, and model inference infrastructure for frontier AI development, including forward-deployed work supporting U.S. government initiatives.
 
 Previously, I was a Machine Learning Research Scientist with the US Army Research Laboratory (ARL), where I served as the Lead Scientist for the Human-Guided Machine Learning Branch. My research focuses on <strong>human-guided reinforcement learning</strong>—developing algorithms that enable humans to effectively train and shape autonomous agents through various feedback modalities including demonstrations, real-time interventions, evaluative feedback, and natural language guidance.
 
